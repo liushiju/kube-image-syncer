@@ -1,9 +1,9 @@
 default:
-  push_kubernetes: true
-  push_images: false
+  push_kubernetes: false
+  push_images: true
 
 kubernetes:
   version: v1.25.12
 
 images:
-  - docker.io/nginx:latest
+  - docker.io/jettech/kube-webhook-certgen:v1.5.0
