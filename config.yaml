@@ -3,7 +3,7 @@ default:
   push_images: false
 
 kubernetes:
-  version: v1.25.12
+  version: v1.25.13
 
 images:
   - docker.io/nginx:latest
